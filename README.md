@@ -1,24 +1,41 @@
-# README
+# Odin Kittens 🐱
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple Rails application for managing kitten profiles. Built as part of practicing Rails fundamentals.
 
-Things you may want to cover:
+## Features
+- Create new kitten profiles
+- View all kittens in a list
+- See detailed kitten information
+- Edit existing kitten details
+- Delete kittens (😿)
+- Flash messages for user feedback
 
-* Ruby version
+## Installation
+1. Clone repo:  
+`git clone git@github.com:fabortwell/kittens_api.git`
+2. Install dependencies:  
+`bundle install`
+3. Setup database:  
+`rails db:create db:migrate db:seed`
+4. Start server:  
+`rails server`
+5. Visit `http://localhost:3000`
 
-* System dependencies
+## Seeding Sample Data
+Pre-loaded with 5 adorable kittens:  
+`rails db:seed`
 
-* Configuration
+## Technologies
+- Ruby on Rails
+- Sqlite
+- ERB views
 
-* Database creation
+## Screenshots
+![App Overview](app/assets/images/overview.png)
+![Singel View](app/assets/images/overview_2.png)
+![Flash Messages](app/assets/images/deleted.png)
 
-* Database initialization
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*"What greater gift than the love of a cat?" - Charles Dickens*
