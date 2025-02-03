@@ -1,6 +1,12 @@
 # Odin Kittens 🐱
 
 A simple Rails application for managing kitten profiles. Built as part of practicing Rails fundamentals.
+## Screenshot_1
+![App Overview](app/assets/images/overview.png)
+## Screenshot_2
+![Single View](app/assets/images/overview_2.png)
+## Screenshot_3
+![Flash Messages](app/assets/images/deleted.png)
 
 ## Features
 - Create new kitten profiles
@@ -29,13 +35,6 @@ Pre-loaded with 5 adorable kittens:
 - Ruby on Rails
 - Sqlite
 - ERB views
-
-## Screenshot_1
-![App Overview](app/assets/images/overview.png)
-## Screenshot_2
-![Single View](app/assets/images/overview_2.png)
-## Screenshot_3
-![Flash Messages](app/assets/images/deleted.png)
 
 
 ---
