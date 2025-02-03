@@ -30,9 +30,11 @@ Pre-loaded with 5 adorable kittens:
 - Sqlite
 - ERB views
 
-## Screenshots
+## Screenshot_1
 ![App Overview](app/assets/images/overview.png)
-![Singel View](app/assets/images/overview_2.png)
+## Screenshot_2
+![Single View](app/assets/images/overview_2.png)
+## Screenshot_3
 ![Flash Messages](app/assets/images/deleted.png)
 
 
