@@ -1,0 +1,20 @@
+<header>
+  <h1>Odin Kittens</h1>
+  <%= link_to "New Kitten", new_kitten_path, class: "btn btn-primary" %>
+</header>
+
+<% @kittens.each do |kitten| %>
+  <div class="kitten-card">
+    <h3><%= link_to kitten.name, kitten %></h3>
+    <p>Age: <%= kitten.age %></p>
+    <p>Cuteness: <%= kitten.cuteness %></p>
+    <p>Softness: <%= kitten.softness %></p>
+    
+    <div class="kitten-actions flex">
+      <%= link_to 'Edit', edit_kitten_path(kitten), class: "btn btn-primary" %>
+      <%= button_to 'Delete', kitten, method: :delete, 
+                    form: { data: { turbo_confirm: "Are you sure?" } }, 
+                    class: "btn btn-danger" %>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,23 @@
+<div class="form-group">
+  <%= form_with model: @kitten do |f| %>
+    <% if @kitten.errors.any? %>
+      <div class="flash alert">
+        <h2><%= pluralize(@kitten.errors.count, "error") %> prohibited this kitten from being saved:</h2>
+        <ul>
+          <% @kitten.errors.each do |error| %>
+            <li><%= error.full_message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="form-group">
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </div>
+
+    <!-- Repeat for other fields -->
+    
+    <%= f.submit class: "btn btn-primary" %>
+  <% end %>
+</div>
